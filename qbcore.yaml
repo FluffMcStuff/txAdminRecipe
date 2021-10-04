@@ -152,6 +152,11 @@ tasks:
     dest: ./resources/[qb]/qb-coke
     ref: main
     src: https://github.com/FluffMcStuff/qb-coke
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-fishing
+    ref: main
+    src: https://github.com/FluffMcStuff/qb-fishing    
     
   - action: download_github
     dest: ./resources/[qb]/qb-prison
