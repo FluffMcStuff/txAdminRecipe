@@ -1,8 +1,8 @@
 $engine: 3
 $onesync: on
-name: fluffville
-version: 2.0.0
-author: Fluff can not do this
+name: QBCore Framework
+version: 2.0.1
+author: JericoFx & Kakarot & Hamy
 description: An advanced FiveM RP framework including jobs, gangs, housing & more!
 
 tasks:
