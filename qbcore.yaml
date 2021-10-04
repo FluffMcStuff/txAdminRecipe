@@ -50,6 +50,11 @@ tasks:
     dest: ./resources/[standalone]/bob74_ipl
     ref: master
     src: https://github.com/FluffMcStuff/bob74_ipl
+
+    - action: download_github
+    dest: ./resources/[standalone]/linden_outlaw
+    ref: master
+    src: https://github.com/FluffMcStuff/linden_outlawalert
     
   - action: download_github
     dest: ./resources/[standalone]/safecracker
