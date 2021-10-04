@@ -51,7 +51,7 @@ tasks:
     ref: master
     src: https://github.com/FluffMcStuff/bob74_ipl
 
-    - action: download_github
+  - action: download_github
     dest: ./resources/[standalone]/linden_outlaw
     ref: master
     src: https://github.com/FluffMcStuff/linden_outlawalert
@@ -158,7 +158,7 @@ tasks:
     ref: main
     src: https://github.com/FluffMcStuff/qb-fishing  
     
-   - action: download_github
+  - action: download_github
      dest: ./resources/[qb]/qb-tattooshop
      ref: main
      src: https://github.com/FluffMcStuff/qb-tattooshop
