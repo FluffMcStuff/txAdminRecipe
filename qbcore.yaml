@@ -156,7 +156,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-fishing
     ref: main
-    src: https://github.com/FluffMcStuff/qb-fishing    
+    src: https://github.com/FluffMcStuff/qb-fishing  
+    
+   - action: download_github
+     dest: ./resources/[qb]/qb-tattooshop
+     ref: main
+     src: https://github.com/FluffMcStuff/qb-tattooshop
     
   - action: download_github
     dest: ./resources/[qb]/qb-prison
