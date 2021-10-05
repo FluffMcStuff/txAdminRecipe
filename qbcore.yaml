@@ -518,6 +518,11 @@ tasks:
     ref: main
     src: https://github.com/FluffMcStuff/qb-interior
 
+  - action: download_github
+    dest: ./resources/[standalonemine]/pmms
+    ref: main
+    src: https://github.com/FluffMcStuff/pmms   
+
   # Clean up
   - action: remove_path
     path: ./tmp
