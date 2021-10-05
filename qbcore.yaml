@@ -51,6 +51,9 @@ tasks:
     ref: master
     src: https://github.com/FluffMcStuff/bob74_ipl
 
+  - action: waste_time # prevent github throttling
+    seconds: 10   
+
   - action: download_github
     dest: ./resources/[standalone]/linden_outlaw
     ref: master
@@ -160,6 +163,9 @@ tasks:
     dest: ./resources/[qb]/qb-coke
     ref: main
     src: https://github.com/FluffMcStuff/qb-coke
+
+  - action: waste_time # prevent github throttling
+    seconds: 10    
 
   - action: download_github
     dest: ./resources/[qb]/qb-fishing
