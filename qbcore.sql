@@ -327,3 +327,5 @@ CREATE TABLE IF NOT EXISTS `trunkitems` (
   PRIMARY KEY (`plate`),
   KEY `id` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1;
+
+ALTER TABLE `players` ADD COLUMN `tattoos` LONGTEXT DEFAULT NULL;
