@@ -28,7 +28,7 @@ tasks:
 
   # Downloading Standalone resources
   - action: download_github
-    src: https://github.com/citizenfx/cfx-server-data
+    src: https://github.com/FluffMcStuff/cfx-server-data
     subpath: resources
     dest: ./resources/[cfx-default]
 
