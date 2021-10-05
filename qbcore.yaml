@@ -67,7 +67,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/progressbar
     ref: main
-    src: https://github.com/qFluffMcStuff/progressbar
+    src: https://github.com/FluffMcStuff/progressbar
 
   - action: waste_time # prevent github throttling
     seconds: 10    
