@@ -521,7 +521,12 @@ tasks:
   - action: download_github
     dest: ./resources/[standalonemine]/pmms
     ref: main
-    src: https://github.com/FluffMcStuff/pmms   
+    src: https://github.com/FluffMcStuff/pmms
+
+  - action: download_github
+    dest: ./resources/[standalonemine]/hh_aidoc
+    ref: main
+    src: https://github.com/FluffMcStuff/hh_aidoc        
 
   # Clean up
   - action: remove_path
